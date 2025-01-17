@@ -1,0 +1,80 @@
+/* Responsive Design for Smaller Screens */
+
+/* For Tablets */
+@media (max-width: 768px) {
+  .login-box {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  img.logo {
+    width: 110px;
+  }
+
+  header {
+    font-size: 20px;
+  }
+
+  .input-field {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .forget {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .remember-me,
+  .forget-password {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* For Phones */
+@media (max-width: 480px) {
+  .login-box {
+    padding-left: 1px;
+    padding-right: 1px;
+    max-width: 95%;
+  }
+
+  img.logo {
+    width: 100px;
+  }
+
+  header {
+    font-size: 22px;
+  }
+
+  .input-field {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .forget {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .remember-me,
+  .forget-password {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sign-up-link p {
+    font-size: 12px;
+  }
+}
